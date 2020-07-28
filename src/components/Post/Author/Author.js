@@ -1,7 +1,7 @@
 // @flow strict
 import React from 'react';
 import { withPrefix } from 'gatsby';
-import { getContactHref } from '../../../utils';
+import { getContactHref, getAuthor } from '../../../utils';
 import styles from './Author.module.scss';
 import { useSiteMetadata } from '../../../hooks';
 
@@ -10,25 +10,8 @@ type Props = {
 };
 
 const Author = ({ authorName }: Props) => {
-  const { authors, url } = useSiteMetadata();
-  let [author] = authors.filter((author) => author.name === authorName);
-  if (author === undefined) {
-    author = {
-      name: 'Anonymous',
-      bio: 'From anonymous',
-      mainContactUrl: url,
-      mainContactName: 'Side-Punch',
-    };
-  } else if (author.name === 'onsoo') {
-    author.mainContactUrl = author.contacts.email;
-    author.mainContactName = 'email';
-  } else if (author.name === 'kim.sardine') {
-    author.mainContactUrl = author.contacts.github;
-    author.mainContactName = 'github';
-  } else {
-    author.mainContactUrl = author.contacts.github;
-    author.mainContactName = 'github';
-  }
+  const { authors } = useSiteMetadata();
+  const author = getAuthor(authors, authorName);
 
   return (
     <div className={styles['author']}>

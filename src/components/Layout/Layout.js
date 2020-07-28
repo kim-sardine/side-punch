@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import { withPrefix } from 'gatsby';
 import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
+import { getAuthor } from '../../utils';
 import styles from './Layout.module.scss';
 
 type Props = {
@@ -20,7 +21,7 @@ const Layout = ({
   socialImage
 }: Props) => {
   const { authors, url } = useSiteMetadata();
-  const [author] = authors.filter((author) => author.name === 'Side-Punch');
+  const author = getAuthor(authors, 'Side-Punch');
   const metaImage = socialImage != null ? socialImage : author.photo;
   const metaImageUrl = url + withPrefix(metaImage);
 
