@@ -12,7 +12,7 @@ module.exports = {
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
     menu: siteConfig.menu,
-    author: siteConfig.author
+    authors: siteConfig.authors
   },
   plugins: [
     {
@@ -83,6 +83,7 @@ module.exports = {
                       }
                       frontmatter {
                         title
+                        author
                         date
                         template
                         draft
@@ -187,7 +188,7 @@ module.exports = {
         background_color: '#FFF',
         theme_color: '#F7A046',
         display: 'standalone',
-        icon: 'static/photo.jpg'
+        icon: 'static/side-punch.jpg'
       },
     },
     'gatsby-plugin-offline',

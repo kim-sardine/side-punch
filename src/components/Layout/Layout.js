@@ -19,7 +19,8 @@ const Layout = ({
   description,
   socialImage
 }: Props) => {
-  const { author, url } = useSiteMetadata();
+  const { authors, url } = useSiteMetadata();
+  const [author] = authors.filter((author) => author.name === 'Side-Punch');
   const metaImage = socialImage != null ? socialImage : author.photo;
   const metaImageUrl = url + withPrefix(metaImage);
 

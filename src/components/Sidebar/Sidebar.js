@@ -12,8 +12,8 @@ type Props = {
 };
 
 const Sidebar = ({ isIndex }: Props) => {
-  const { author, copyright, menu } = useSiteMetadata();
-
+  const { authors, copyright, menu } = useSiteMetadata();
+  const [author] = authors.filter((author) => author.name === 'Side-Punch');
   return (
     <div className={styles['sidebar']}>
       <div className={styles['sidebar__inner']}>

@@ -61,6 +61,7 @@ export const query = graphql`
           frontmatter {
             title
             date
+            author
             category
             description
           }

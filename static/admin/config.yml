@@ -22,7 +22,7 @@ collections:
       - {label: "Template", name: "template", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Author", name: "author", widget: "select", options: ["onsoo", "kim.sardine"]}
+      - {label: "Author", name: "author", widget: "select", options: ["onsoo", "sardine"]}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}

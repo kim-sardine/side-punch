@@ -24,26 +24,72 @@ module.exports = {
       path: '/pages/contacts'
     }
   ],
-  author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
-      vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: '',
-      soundcloud: '',
+  authors: [
+    {
+      name: 'Side-Punch',
+      photo: '/side-punch.jpg',
+      bio: 'Side-Punch bio',
+      contacts: {
+        email: '',
+        facebook: '#',
+        telegram: '#',
+        twitter: '#',
+        github: 'kim-sardine/side-punch',
+        rss: '',
+        vkontakte: '',
+        linkedin: '#',
+        instagram: '#',
+        line: '',
+        gitlab: '',
+        weibo: '',
+        codepen: '',
+        youtube: '',
+        soundcloud: '',
+      }
+    },
+    {
+      name: 'onsoo',
+      photo: '/side-punch.jpg',
+      bio: 'onsoo bio',
+      contacts: {
+        email: 'orea.j2@gmail.com',
+        facebook: '#',
+        telegram: '#',
+        twitter: '#',
+        github: '#',
+        rss: '',
+        vkontakte: '',
+        linkedin: '#',
+        instagram: '#',
+        line: '',
+        gitlab: '',
+        weibo: '',
+        codepen: '',
+        youtube: '',
+        soundcloud: '',
+      }
+    },
+    {
+      name: 'kim.sardine',
+      photo: '/side-punch.jpg',
+      bio: 'sardine bio',
+      contacts: {
+        email: 'kim.sardine@gmail.com',
+        facebook: '#',
+        telegram: '#',
+        twitter: '#',
+        github: 'kim-sardine',
+        rss: '',
+        vkontakte: '',
+        linkedin: '#',
+        instagram: '#',
+        line: '',
+        gitlab: '',
+        weibo: '',
+        codepen: '',
+        youtube: '',
+        soundcloud: '',
+      }
     }
-  }
+  ]
 };
