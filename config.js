@@ -6,9 +6,9 @@ module.exports = {
   title: 'Side-Punch Project',
   subtitle: 'onsoo and sardine\'s service development story',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'side-punch',
   postsPerPage: 5,
-  googleAnalyticsId: 'UA-73379983-2', // TODO: Change this
+  googleAnalyticsId: 'UA-131568070-4',
   useKatex: false,
   menu: [
     {
