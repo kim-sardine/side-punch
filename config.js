@@ -31,7 +31,7 @@ module.exports = {
   authors: [
     {
       name: 'Side-Punch',
-      photo: '/side-punch.jpg',
+      photo: '/bio/side-punch.png',
       bio: 'Side-Punch bio',
       contacts: {
         email: '',
@@ -53,7 +53,7 @@ module.exports = {
     },
     {
       name: 'onsoo',
-      photo: '/side-punch.jpg',
+      photo: '/bio/onsoo.png',
       bio: 'onsoo bio',
       contacts: {
         email: 'orea.j2@gmail.com',
@@ -75,7 +75,7 @@ module.exports = {
     },
     {
       name: 'kim.sardine',
-      photo: '/side-punch.jpg',
+      photo: '/bio/side-punch.png',
       bio: 'sardine bio',
       contacts: {
         email: 'kim.sardine@gmail.com',
