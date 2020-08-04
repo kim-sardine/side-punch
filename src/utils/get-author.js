@@ -6,7 +6,7 @@ const getAuthor = (authors: string[], authorName: string) => {
     author = {
       name: 'Anonymous',
       bio: 'From anonymous',
-      mainContactUrl: 'https://side-punch.com/',
+      mainContactUrl: 'https://sidepun.ch/',
       mainContactName: 'Side-Punch',
     };
   } else if (author.name === 'onsoo') {

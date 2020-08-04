@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://side-punch.com',
+  url: 'https://sidepun.ch',
   pathPrefix: '/',
   title: 'Side-Punch Project',
   subtitle: 'onsoo and sardine\'s service development story',
