@@ -1,6 +1,6 @@
 ---
 template: post
-title: "[영어 표현] Resolution/Be in a position/Incremental/Discipline 뜻"
+title: "[영어 표현] Resolution / Be in a position / Incremental / Discipline 뜻"
 slug: 영어-표현-resolution-be-in-a-position-incremental-discipline-뜻
 author: onsoo
 draft: false
