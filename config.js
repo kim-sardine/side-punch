@@ -32,17 +32,17 @@ module.exports = {
     {
       name: 'Side-Punch',
       photo: '/bio/side-punch.png',
-      bio: 'Side-Punch bio',
+      bio: '온수와 정어리의 서비스 & 개발 이야기',
       contacts: {
         email: '',
-        facebook: '#',
-        telegram: '#',
-        twitter: '#',
+        facebook: '',
+        telegram: '',
+        twitter: '',
         github: 'kim-sardine/side-punch',
         rss: '',
         vkontakte: '',
-        linkedin: '#',
-        instagram: '#',
+        linkedin: '',
+        instagram: '',
         line: '',
         gitlab: '',
         weibo: '',
@@ -54,7 +54,7 @@ module.exports = {
     {
       name: 'onsoo',
       photo: '/bio/onsoo.png',
-      bio: 'onsoo bio',
+      bio: 'BizOps manager',
       contacts: {
         email: 'orea.j2@gmail.com',
         facebook: '#',
@@ -76,7 +76,7 @@ module.exports = {
     {
       name: 'kim.sardine',
       photo: '/bio/side-punch.png',
-      bio: 'sardine bio',
+      bio: '정어리',
       contacts: {
         email: 'kim.sardine@gmail.com',
         facebook: '#',
