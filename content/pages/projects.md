@@ -53,8 +53,8 @@ Random Pick and Presenter
 
 #### [WADM](https://github.com/kim-sardine/wadm-flutter)
 
-[<img src="./github.svg" alt="drawing" width="20"/>](https://github.com/kim-sardine/wadm-flutter)
-
 *2020.02 ~*
+
+[<img src="./github.svg" alt="drawing" width="20"/>](https://github.com/kim-sardine/wadm-flutter)
 
 Weighted Average Decision Matrix
