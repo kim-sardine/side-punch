@@ -43,9 +43,9 @@ Pull-up bar, parallel bar map that we all make together.
 
 *2020.07 ~*
 
-[<img src="./github.svg" alt="drawing" width="20"/>](https://github.com/kim-sardine/random-pick-and-presenter)
+[<img src="./github.svg" alt="drawing" width="20"/>](https://github.com/kim-sardine/rpap)
 
-Random Pick and Presenter
+Random Picker and Presenter
 
 - - -
 
